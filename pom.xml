@@ -9,6 +9,7 @@
     <version>0.0.1</version>
     <modules>
         <module>jfaas-container</module>
+        <module>jfaas-domain</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -22,6 +23,20 @@
 
     <dependencyManagement>
         <dependencies>
+            <!-- ================================================= -->
+            <!-- Inner Module -->
+            <!-- ================================================= -->
+            <dependency>
+                <groupId>com.jfaas</groupId>
+                <artifactId>jfaas-domain</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.jfaas</groupId>
+                <artifactId>jfaas-container</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
             <dependency>
                 <groupId>com.alipay.sofa</groupId>
                 <artifactId>sofa-ark-container</artifactId>

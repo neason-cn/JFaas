@@ -9,18 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>jfaas-container</artifactId>
+    <artifactId>jfaas-domain</artifactId>
     <version>${project.version</version>
 
-    <dependencies>
-        <dependency>
-            <groupId>com.jfaas</groupId>
-            <artifactId>jfaas-domain</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.alipay.sofa</groupId>
-            <artifactId>sofa-ark-container</artifactId>
-        </dependency>
-    </dependencies>
 
 </project>
