@@ -3,8 +3,8 @@ package com.jfaas.container.core;
 import java.util.Set;
 
 import com.jfaas.domain.common.LifeCycle;
-import com.jfaas.domain.core.Bundle;
-import com.jfaas.domain.core.BundleInfo;
+import com.jfaas.domain.core.bundle.Bundle;
+import com.jfaas.domain.core.bundle.BundleInfo;
 
 /**
  * @author : neason-cn

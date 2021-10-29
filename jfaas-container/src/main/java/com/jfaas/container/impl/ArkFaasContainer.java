@@ -13,9 +13,9 @@ import com.alipay.sofa.ark.spi.service.extension.ExtensionLoaderService;
 import com.alipay.sofa.ark.spi.service.plugin.PluginFactoryService;
 import com.alipay.sofa.ark.spi.service.plugin.PluginManagerService;
 import com.jfaas.container.core.FaasContainer;
-import com.jfaas.domain.core.Bundle;
-import com.jfaas.domain.core.BundleInfo;
-import com.jfaas.domain.core.impl.BundleImpl;
+import com.jfaas.core.bundle.impl.BundleImpl;
+import com.jfaas.domain.core.bundle.Bundle;
+import com.jfaas.domain.core.bundle.BundleInfo;
 
 /**
  * @author : neason-cn

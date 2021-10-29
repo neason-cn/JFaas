@@ -17,6 +17,10 @@
             <groupId>com.jfaas</groupId>
             <artifactId>jfaas-container</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.jfaas</groupId>
+            <artifactId>jfaas-core</artifactId>
+        </dependency>
     </dependencies>
 
 </project>

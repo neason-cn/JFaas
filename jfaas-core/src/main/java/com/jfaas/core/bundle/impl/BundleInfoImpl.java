@@ -1,8 +1,8 @@
-package com.jfaas.domain.core.impl;
+package com.jfaas.core.bundle.impl;
 
 import java.net.URL;
 
-import com.jfaas.domain.core.BundleInfo;
+import com.jfaas.domain.core.bundle.BundleInfo;
 
 /**
  * @author : neason-cn

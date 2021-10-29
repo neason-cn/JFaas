@@ -1,4 +1,4 @@
-package com.jfaas.domain.annotation;
+package com.jfaas.core.annotation;
 
 /**
  * @author : neason-cn

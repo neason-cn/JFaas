@@ -1,4 +1,4 @@
-package com.jfaas.domain.core;
+package com.jfaas.domain.core.support;
 
 /**
  * @author : neason-cn

@@ -11,6 +11,8 @@
         <module>jfaas-container</module>
         <module>jfaas-domain</module>
         <module>jfaas-example</module>
+        <module>jfaas-core</module>
+        <module>jfaas-extension</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -43,6 +45,11 @@
             <dependency>
                 <groupId>com.jfaas</groupId>
                 <artifactId>jfaas-container</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.jfaas</groupId>
+                <artifactId>jfaas-core</artifactId>
                 <version>${project.version}</version>
             </dependency>
 

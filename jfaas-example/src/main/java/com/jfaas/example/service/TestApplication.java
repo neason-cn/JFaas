@@ -4,8 +4,8 @@ import java.net.URL;
 
 import com.jfaas.container.core.FaasContainer;
 import com.jfaas.container.impl.ArkFaasContainer;
-import com.jfaas.domain.core.BundleInfo;
-import com.jfaas.domain.core.impl.BundleInfoImpl;
+import com.jfaas.core.bundle.impl.BundleInfoImpl;
+import com.jfaas.domain.core.bundle.BundleInfo;
 
 /**
  * @author : neason-cn
