@@ -1,6 +1,10 @@
 package com.jfaas.container.core;
 
+import java.util.Set;
+
 import com.jfaas.domain.common.LifeCycle;
+import com.jfaas.domain.core.Bundle;
+import com.jfaas.domain.core.BundleInfo;
 
 /**
  * @author : neason-cn
@@ -16,5 +20,21 @@ public interface FaasContainer extends LifeCycle {
      * @return
      */
     <T> T getBean(Class<T> clazz);
+
+    /**
+     * Load and instantiate a bundle
+     *
+     * @param bundleInfo
+     * @return
+     * @throws Exception
+     */
+    <T> Bundle<T> load(BundleInfo<T> bundleInfo) throws Exception;
+
+    /**
+     * Get the all bundles of the container
+     *
+     * @return
+     */
+    <T> Set<Bundle<T>> getAllBundles();
 
 }
