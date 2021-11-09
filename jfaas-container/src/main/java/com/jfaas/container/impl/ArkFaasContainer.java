@@ -64,6 +64,7 @@ public class ArkFaasContainer implements FaasContainer {
     @Override
     public void stop() {
         arkServiceContainer.stop();
+        stopped.compareAndSet(false, true);
     }
 
     @Override
